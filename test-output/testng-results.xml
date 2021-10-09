@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LinkedinSuite" duration-ms="113845" started-at="2021-10-07T08:18:00 IST" finished-at="2021-10-07T08:19:54 IST">
+    <groups>
+    </groups>
+    <test name="LinkedinTest" duration-ms="113845" started-at="2021-10-07T08:18:00 IST" finished-at="2021-10-07T08:19:54 IST">
+      <class name="com.qa.linkedin.testcases.LinkedinDataDrivenTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.linkedin.testcases.LinkedinDataDrivenTest@5db45159]" name="setup" is-config="true" duration-ms="9896" started-at="2021-10-07T08:17:50 IST" finished-at="2021-10-07T08:18:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qa.linkedin.testcases.LinkedinDataDrivenTest@5db45159]" name="beforeClass" is-config="true" duration-ms="83" started-at="2021-10-07T08:18:00 IST" finished-at="2021-10-07T08:18:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="doLoginTest()[pri:0, instance:com.qa.linkedin.testcases.LinkedinDataDrivenTest@5db45159]" name="doLoginTest" duration-ms="19359" started-at="2021-10-07T08:18:00 IST" description="login to linkedin" finished-at="2021-10-07T08:18:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method status="PASS" signature="doPeopeSearchTest(java.lang.String)[pri:0, instance:com.qa.linkedin.testcases.LinkedinDataDrivenTest@5db45159]" name="doPeopeSearchTest" duration-ms="6247" started-at="2021-10-07T08:18:22 IST" data-provider="dp" depends-on-methods="com.qa.linkedin.testcases.LinkedinDataDrivenTest.doLoginTest" finished-at="2021-10-07T08:18:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Geetha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doPeopeSearchTest -->
+        <test-method status="PASS" signature="doPeopeSearchTest(java.lang.String)[pri:0, instance:com.qa.linkedin.testcases.LinkedinDataDrivenTest@5db45159]" name="doPeopeSearchTest" duration-ms="6365" started-at="2021-10-07T08:18:28 IST" data-provider="dp" depends-on-methods="com.qa.linkedin.testcases.LinkedinDataDrivenTest.doLoginTest" finished-at="2021-10-07T08:18:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yamini]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doPeopeSearchTest -->
+        <test-method status="PASS" signature="doPeopeSearchTest(java.lang.String)[pri:0, instance:com.qa.linkedin.testcases.LinkedinDataDrivenTest@5db45159]" name="doPeopeSearchTest" duration-ms="5947" started-at="2021-10-07T08:18:34 IST" data-provider="dp" depends-on-methods="com.qa.linkedin.testcases.LinkedinDataDrivenTest.doLoginTest" finished-at="2021-10-07T08:18:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Srilakshmi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doPeopeSearchTest -->
+        <test-method status="PASS" signature="doPeopeSearchTest(java.lang.String)[pri:0, instance:com.qa.linkedin.testcases.LinkedinDataDrivenTest@5db45159]" name="doPeopeSearchTest" duration-ms="6393" started-at="2021-10-07T08:18:40 IST" data-provider="dp" depends-on-methods="com.qa.linkedin.testcases.LinkedinDataDrivenTest.doLoginTest" finished-at="2021-10-07T08:18:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[saraswathi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doPeopeSearchTest -->
+        <test-method status="PASS" signature="doPeopeSearchTest(java.lang.String)[pri:0, instance:com.qa.linkedin.testcases.LinkedinDataDrivenTest@5db45159]" name="doPeopeSearchTest" duration-ms="6194" started-at="2021-10-07T08:18:47 IST" data-provider="dp" depends-on-methods="com.qa.linkedin.testcases.LinkedinDataDrivenTest.doLoginTest" finished-at="2021-10-07T08:18:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ramya]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doPeopeSearchTest -->
+        <test-method status="PASS" signature="doPeopeSearchTest(java.lang.String)[pri:0, instance:com.qa.linkedin.testcases.LinkedinDataDrivenTest@5db45159]" name="doPeopeSearchTest" duration-ms="6360" started-at="2021-10-07T08:18:53 IST" data-provider="dp" depends-on-methods="com.qa.linkedin.testcases.LinkedinDataDrivenTest.doLoginTest" finished-at="2021-10-07T08:18:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anjaneyulu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doPeopeSearchTest -->
+        <test-method status="PASS" signature="doPeopeSearchTest(java.lang.String)[pri:0, instance:com.qa.linkedin.testcases.LinkedinDataDrivenTest@5db45159]" name="doPeopeSearchTest" duration-ms="6188" started-at="2021-10-07T08:18:59 IST" data-provider="dp" depends-on-methods="com.qa.linkedin.testcases.LinkedinDataDrivenTest.doLoginTest" finished-at="2021-10-07T08:19:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lokesh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doPeopeSearchTest -->
+        <test-method status="PASS" signature="doPeopeSearchTest(java.lang.String)[pri:0, instance:com.qa.linkedin.testcases.LinkedinDataDrivenTest@5db45159]" name="doPeopeSearchTest" duration-ms="6169" started-at="2021-10-07T08:19:05 IST" data-provider="dp" depends-on-methods="com.qa.linkedin.testcases.LinkedinDataDrivenTest.doLoginTest" finished-at="2021-10-07T08:19:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vivek]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doPeopeSearchTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qa.linkedin.testcases.LinkedinDataDrivenTest@5db45159]" name="afterClass" is-config="true" duration-ms="42654" started-at="2021-10-07T08:19:11 IST" finished-at="2021-10-07T08:19:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.linkedin.testcases.LinkedinDataDrivenTest@5db45159]" name="tearDown" is-config="true" duration-ms="1175" started-at="2021-10-07T08:19:56 IST" finished-at="2021-10-07T08:19:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.linkedin.testcases.LinkedinDataDrivenTest -->
+    </test> <!-- LinkedinTest -->
+  </suite> <!-- LinkedinSuite -->
+</testng-results>

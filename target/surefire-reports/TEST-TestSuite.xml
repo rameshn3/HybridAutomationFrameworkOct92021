@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="305.309" tests="9" errors="0" skipped="0" failures="5">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\eclipseworkspaceAug2018\HybridFrameworkOct42021"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\eclipseworkspaceAug2018\HybridFrameworkOct42021"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\LENOVO\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\ApacheMaven\apache-maven-3.8.2-bin\apache-maven-3.8.2\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ApacheMaven\apache-maven-3.8.2-bin\apache-maven-3.8.2\bin;C:\Gradle\gradle-6.5-all\gradle-6.5\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="maven.conf" value="C:\ApacheMaven\apache-maven-3.8.2-bin\apache-maven-3.8.2/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\LENOVO"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="LENOVO"/>
+    <property name="java.class.path" value="C:\ApacheMaven\apache-maven-3.8.2-bin\apache-maven-3.8.2\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\ApacheMaven\apache-maven-3.8.2-bin\apache-maven-3.8.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="doLoginTest" classname="com.qa.linkedin.testcases.LinkedinDataDrivenTest" time="12.395"/>
+  <testcase name="doPeopeSearchTest" classname="com.qa.linkedin.testcases.LinkedinDataDrivenTest" time="6.349"/>
+  <testcase name="doPeopeSearchTest" classname="com.qa.linkedin.testcases.LinkedinDataDrivenTest" time="6.411"/>
+  <testcase name="doPeopeSearchTest" classname="com.qa.linkedin.testcases.LinkedinDataDrivenTest" time="6.986"/>
+  <testcase name="doPeopeSearchTest" classname="com.qa.linkedin.testcases.LinkedinDataDrivenTest" time="6.766">
+    <failure message="element click intercepted: Element &lt;a class=&quot;app-aware-link&quot; target=&quot;_self&quot; href=&quot;https://www.linkedin.com/search/results/people/?keywords=saraswathi&amp;amp;origin=CLUSTER_EXPANSION&quot;&gt;...&lt;/a&gt; is not clickable at point (501, 490). Other element would receive the click: &lt;div class=&quot;search-global-typeahead__hit&#10;    &#10;    search-global-typeahead__hit--entity-with-search-icon&#10;    search-global-typeahead__hit--all-suggestions-ui&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=94.0.4606.61)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-0M1MH5T&apos;, ip: &apos;192.168.0.187&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ff60c1f380aebfd96ae80bc1f44591cf" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a class="app-aware-link" target="_self" href="https://www.linkedin.com/search/results/people/?keywords=saraswathi&amp;origin=CLUSTER_EXPANSION">...</a> is not clickable at point (501, 490). Other element would receive the click: <div class="search-global-typeahead__hit
+    
+    search-global-typeahead__hit--entity-with-search-icon
+    search-global-typeahead__hit--all-suggestions-ui">...</div>
+  (Session info: chrome=94.0.4606.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0M1MH5T', ip: '192.168.0.187', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ff60c1f380aebfd96ae80bc1f44591cf
+	at com.qa.linkedin.testcases.LinkedinDataDrivenTest.doPeopeSearchTest(LinkedinDataDrivenTest.java:59)
+]]></failure>
+    <system-out><![CDATA[2021-10-08 07:39:40 DEBUG BasePageWeb:77 - wait for the element to be clickable or not
+2021-10-08 07:39:40 DEBUG BasePageWeb:79 - clear the content in given editbox element
+2021-10-08 07:39:44 DEBUG BasePageWeb:41 - wait for the element to be clickable or not
+2021-10-08 07:39:44 DEBUG BasePageWeb:43 - click on the given element
+doPeopeSearchTest failed!
+2021-10-08 07:39:46 DEBUG TestUtil:26 - ********************************************************************************
+2021-10-08 07:39:46 DEBUG TestUtil:27 - Screenshot stored at path: target/surefire-reports/failedTestScreenshots/doPeopeSearchTest-Fri_Oct_08_07_39_45_IST_2021.png
+2021-10-08 07:39:46 DEBUG TestUtil:28 - ********************************************************************************
+]]></system-out>
+  </testcase>
+  <testcase name="doPeopeSearchTest" classname="com.qa.linkedin.testcases.LinkedinDataDrivenTest" time="62.477">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[contains(@class,&apos;profile-rail-card&apos;)]&apos; (tried for 45 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(@class,'profile-rail-card')]' (tried for 45 second(s) with 500 milliseconds interval)
+	at com.qa.linkedin.testcases.LinkedinDataDrivenTest.doPeopeSearchTest(LinkedinDataDrivenTest.java:56)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'profile-rail-card')]"}
+  (Session info: chrome=94.0.4606.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0M1MH5T', ip: '192.168.0.187', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ff60c1f380aebfd96ae80bc1f44591cf
+*** Element info: {Using=xpath, value=//div[contains(@class,'profile-rail-card')]}
+	at com.qa.linkedin.testcases.LinkedinDataDrivenTest.doPeopeSearchTest(LinkedinDataDrivenTest.java:56)
+</failure>
+    <system-out><![CDATA[doPeopeSearchTest failed!
+2021-10-08 07:40:48 DEBUG TestUtil:26 - ********************************************************************************
+2021-10-08 07:40:48 DEBUG TestUtil:27 - Screenshot stored at path: target/surefire-reports/failedTestScreenshots/doPeopeSearchTest-Fri_Oct_08_07_40_48_IST_2021.png
+2021-10-08 07:40:48 DEBUG TestUtil:28 - ********************************************************************************
+]]></system-out>
+  </testcase>
+  <testcase name="doPeopeSearchTest" classname="com.qa.linkedin.testcases.LinkedinDataDrivenTest" time="62.636">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[contains(@class,&apos;profile-rail-card&apos;)]&apos; (tried for 45 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(@class,'profile-rail-card')]' (tried for 45 second(s) with 500 milliseconds interval)
+	at com.qa.linkedin.testcases.LinkedinDataDrivenTest.doPeopeSearchTest(LinkedinDataDrivenTest.java:56)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'profile-rail-card')]"}
+  (Session info: chrome=94.0.4606.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0M1MH5T', ip: '192.168.0.187', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ff60c1f380aebfd96ae80bc1f44591cf
+*** Element info: {Using=xpath, value=//div[contains(@class,'profile-rail-card')]}
+	at com.qa.linkedin.testcases.LinkedinDataDrivenTest.doPeopeSearchTest(LinkedinDataDrivenTest.java:56)
+</failure>
+    <system-out><![CDATA[doPeopeSearchTest failed!
+2021-10-08 07:41:51 DEBUG TestUtil:26 - ********************************************************************************
+2021-10-08 07:41:51 DEBUG TestUtil:27 - Screenshot stored at path: target/surefire-reports/failedTestScreenshots/doPeopeSearchTest-Fri_Oct_08_07_41_50_IST_2021.png
+2021-10-08 07:41:51 DEBUG TestUtil:28 - ********************************************************************************
+]]></system-out>
+  </testcase>
+  <testcase name="doPeopeSearchTest" classname="com.qa.linkedin.testcases.LinkedinDataDrivenTest" time="62.605">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[contains(@class,&apos;profile-rail-card&apos;)]&apos; (tried for 45 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(@class,'profile-rail-card')]' (tried for 45 second(s) with 500 milliseconds interval)
+	at com.qa.linkedin.testcases.LinkedinDataDrivenTest.doPeopeSearchTest(LinkedinDataDrivenTest.java:56)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'profile-rail-card')]"}
+  (Session info: chrome=94.0.4606.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0M1MH5T', ip: '192.168.0.187', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ff60c1f380aebfd96ae80bc1f44591cf
+*** Element info: {Using=xpath, value=//div[contains(@class,'profile-rail-card')]}
+	at com.qa.linkedin.testcases.LinkedinDataDrivenTest.doPeopeSearchTest(LinkedinDataDrivenTest.java:56)
+</failure>
+    <system-out><![CDATA[doPeopeSearchTest failed!
+2021-10-08 07:42:53 DEBUG TestUtil:26 - ********************************************************************************
+2021-10-08 07:42:53 DEBUG TestUtil:27 - Screenshot stored at path: target/surefire-reports/failedTestScreenshots/doPeopeSearchTest-Fri_Oct_08_07_42_53_IST_2021.png
+2021-10-08 07:42:53 DEBUG TestUtil:28 - ********************************************************************************
+]]></system-out>
+  </testcase>
+  <testcase name="doPeopeSearchTest" classname="com.qa.linkedin.testcases.LinkedinDataDrivenTest" time="62.548">
+    <failure message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //div[contains(@class,&apos;profile-rail-card&apos;)]&apos; (tried for 45 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //div[contains(@class,'profile-rail-card')]' (tried for 45 second(s) with 500 milliseconds interval)
+	at com.qa.linkedin.testcases.LinkedinDataDrivenTest.doPeopeSearchTest(LinkedinDataDrivenTest.java:56)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'profile-rail-card')]"}
+  (Session info: chrome=94.0.4606.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0M1MH5T', ip: '192.168.0.187', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.61, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:64533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ff60c1f380aebfd96ae80bc1f44591cf
+*** Element info: {Using=xpath, value=//div[contains(@class,'profile-rail-card')]}
+	at com.qa.linkedin.testcases.LinkedinDataDrivenTest.doPeopeSearchTest(LinkedinDataDrivenTest.java:56)
+</failure>
+    <system-out><![CDATA[doPeopeSearchTest failed!
+2021-10-08 07:43:56 DEBUG TestUtil:26 - ********************************************************************************
+2021-10-08 07:43:56 DEBUG TestUtil:27 - Screenshot stored at path: target/surefire-reports/failedTestScreenshots/doPeopeSearchTest-Fri_Oct_08_07_43_56_IST_2021.png
+2021-10-08 07:43:56 DEBUG TestUtil:28 - ********************************************************************************
+]]></system-out>
+  </testcase>
+</testsuite>
