@@ -16,7 +16,9 @@ import java.io.IOException;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.testng.annotations.AfterClass;
-
+/**
+* This is Testcase
+*/
 public class LinkedinDataDrivenTest extends TestBase{
 	private Logger log=Logger.getLogger(LinkedinDataDrivenTest.class);
 	
@@ -71,7 +73,9 @@ public class LinkedinDataDrivenTest extends TestBase{
   	 return data;
     
   }
-  
+  /**
+*I am loging out from application
+*/
 
   @AfterClass
   public void afterClass() throws InterruptedException {
