@@ -14,9 +14,6 @@ public LinkedinHomeFooterPage() {
 	PageFactory.initElements(driver, this);
 }
 
-//identify the elements
-@FindBy(css="a.nav__logo-link")
-private WebElement linkedinLogo;
 
 @FindBy(linkText="Sign in")
 private WebElement signInLink;
@@ -42,11 +39,6 @@ public void verifyLinkedinHomePageTitle() {
 	Assert.assertEquals(driver.getTitle(), linkedinHomePageTitle);
 }
 
-public void verifyLinkedinLogo() {
-	log.debug("Verify linkedin logo is present in the homepage ");
-	wait.until(ExpectedConditions.visibilityOf(linkedinLogo));
-	Assert.assertTrue(linkedinLogo.isDisplayed());
-}
 
 public void clickSigninLink() throws InterruptedException {
 	log.debug("click on signin link in linkedin home page");
